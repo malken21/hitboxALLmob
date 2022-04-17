@@ -1,0 +1,2 @@
+# hitboxALLmob
+Minecraft Bedrock
