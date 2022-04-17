@@ -1,0 +1,18 @@
+{
+    "format_version": "1.17.11",
+    "animations": {
+        "animation.ghast.hitbox": {
+            "loop": true,
+            "bones": {
+                "hitbox": {
+                    "rotation": [
+                        0,
+                        "-query.body_y_rotation",
+                        0
+                    ],
+                "scale": 4
+                }
+            }
+        }
+    }
+}

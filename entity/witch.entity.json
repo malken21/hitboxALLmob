@@ -1,0 +1,40 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "minecraft:witch",
+      "min_engine_version": "1.8.0",
+      "materials": {
+        "hitbox": "hitbox",
+        "default": "witch"
+      },
+      "textures": {
+        "hitbox": "textures/entity/hitbox/0.6_1.9",
+        "default": "textures/entity/witch"
+      },
+      "geometry": {
+        "default": "geometry.villager.witch.v1.8","hitbox": "geometry.hitbox.0.6_1.9"
+      },
+      "scripts": {
+        "scale": "0.9375"
+      },
+      "animations": {
+        "hitbox": "animation.villager.hitbox",
+        "villager_general": "animation.villager.general",
+        "look_at_target": "animation.common.look_at_target",
+        "move": "animation.villager.move",
+        "general": "animation.witch.general"
+      },
+      "animation_controllers": [
+        { "hitbox": "controller.animation.all.hitbox" },
+        { "general": "controller.animation.witch.general" },
+        { "move": "controller.animation.villager.move" }
+      ],
+      "render_controllers": [ "controller.render.hitbox","controller.render.witch" ],
+      "spawn_egg": {
+        "texture": "spawn_egg",
+        "texture_index": 17
+      }
+    }
+  }
+}
